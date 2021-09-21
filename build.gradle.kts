@@ -15,6 +15,11 @@ dependencies {
     testImplementation(kotlin("test"))
 }
 
+dependencies {
+    implementation("org.jetbrains.kotlinx:lincheck-jvm:2.14.1")
+}
+
+
 tasks.test {
     useJUnitPlatform()
 }
